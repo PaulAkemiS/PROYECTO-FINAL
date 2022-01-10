@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <meta name="description"
+        content="Este es el sitio web de Dietética Avellaneda, donde compartimos nuestros productos, como utilizarlos, dónde pueden encontrarnos y cómo comunicarse con nosotros.">
+    <meta name="keywords" content="ALIMENTOS, SALUDABLE, DIETÉTICO, LIGHT, HEALTHY, VEGANO, VEGETARIANO">
+
+</head>
+
+<body>
+    <header id="header">
+        <div id="headerGrid">
+            <nav class="sticky">
+                <ul class="list">
+                    <li class="list__itemList"><a href="index.html">INICIO</a></li>
+                    <li class="list__itemList list__itemSubmenu"><a href="productos.html">PRODUCTOS</a>
+                        <ul class="sublist">
+                            <li class="list__itemSublist"><a href="productos.html">Categorías</a></li>
+                            <li class="list__itemSublist"><a href="productos.html">Nuevos productos</a></li>
+                            <li class="list__itemSublist"><a href="productos.html">Top ten de productos</a></li>
+                        </ul>
+                    </li>
+                    <li class="list__itemList"><a href="recetas.html">RECETAS</a></li>
+                    <li class="list__itemList"><a href="quienessomos.html">QUIÉNES SOMOS</a></li>
+                    <li class="list__itemList"><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div>
+                <a href="index.html"><img src="./Imagenes/2.png" alt="logo" id="logo" class="animate__animated animate__rollIn"></a>
+            </div>            
+        </div>
+
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="productos.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         PRODUCTOS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                          <li><a class="dropdown-item" href="productos.html">Categorías</a></li>
+                          <li><a class="dropdown-item" href="productos.html">Nuevos Productos</a></li>
+                          <li><a class="dropdown-item" href="productos.html">Top 10 de productos</a></li>  
+                        </ul>
+                    </li>                            
+                    <li class="nav-item">
+                      <a class="nav-link" href="recetas.html">RECETAS</a>            
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienessomos.html">QUIÉNES SOMOS</a>            
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>            
+                    </li>                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <!--Comienzo-->
+        <h1 class="titulo1 titulo1-modifier">CONTÁCTANOS!</h1>
+        <section class="seccionContacto">
+
+            <img src="./Imagenes/Contacto.jpg" alt="Legumbres" class="imgContacto">
+
+            <form action="" class="recuadro">
+                <div>
+                    <label class="recuadro__form-label">Nombre</label><br>
+                    <input class="recuadro__cajaTexto" type="text" id="validationDefault01" placeholder="Nombre"
+                        required><br>
+                </div>
+                <div>
+                    <label class="recuadro__form-label">Apellido</label><br>
+                    <input class="recuadro__cajaTexto" type="text" id="validationDefault02" placeholder="Apellido"
+                        required><br>
+                </div>
+                <div>
+                    <label class="recuadro__form-label">E-mail</label><br>
+                    <input class="recuadro__cajaTexto" type="text" id="validationDefault02"
+                        placeholder="dietetica@avellaneda.com" required><br>
+                </div>
+                <div>
+                    <label class="recuadro__form-label recuadro__form-label">Teléfono</label><br>
+                    <input class="recuadro__cajaTexto" type="text" id="validationDefault03"
+                        placeholder="261-(15)5449966" required><br><br>
+                </div>
+                <div>
+                    <p class="recuadro__form-label recuadro__form-label-select">Acepto compartir mis datos de contacto
+                    </p>
+                    <input class="recuadro__cajaTexto recuadro__cajaTexto-checkBox" type="checkbox" name="acepta"
+                        value="1"><br><br>
+                </div>
+                <div>
+                    <select name="Sexo" id="validationDefault04" class="recuadro__form-label-select" required>
+                        <option selected disabled value=""class="elige">Seleccionar</option>
+                        <option value="Femenino" class="elige">Femenino</option>
+                        <option value="Masculino" class="elige">Masculino</option>
+                        <option value="O" class="elige">Otro</option>
+                    </select><br><br>
+                </div>
+                <div>
+                    <p class="recuadro__form-label">Tu mensaje</p><br>
+                    <textarea name="" id="" cols="30" rows="10" class="recuadro__form-label-cuadro"></textarea><br><br>
+                </div>
+                <div>
+                    <button class="btn btn-orange btn-rounded" type="submit">Enviar</button>
+                    <button class="btn btn-orange btn-rounded" type="reset">Borrar</button>
+                </div>
+            </form><br><br>
+        </section>
+    </main>
+    <footer class="pie">             
+        <div>
+            <a href="https://www.facebook.com/profile.php?id=100009488603057" target="_blank"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDQwOC43ODggNDA4Ljc4OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDA4Ljc4OCA0MDguNzg4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBzdHlsZT0iZmlsbDojNDc1OTkzOyIgZD0iTTM1My43MDEsMEg1NS4wODdDMjQuNjY1LDAsMC4wMDIsMjQuNjYyLDAuMDAyLDU1LjA4NXYyOTguNjE2YzAsMzAuNDIzLDI0LjY2Miw1NS4wODUsNTUuMDg1LDU1LjA4NQ0KCWgxNDcuMjc1bDAuMjUxLTE0Ni4wNzhoLTM3Ljk1MWMtNC45MzIsMC04LjkzNS0zLjk4OC04Ljk1NC04LjkybC0wLjE4Mi00Ny4wODdjLTAuMDE5LTQuOTU5LDMuOTk2LTguOTg5LDguOTU1LTguOTg5aDM3Ljg4Mg0KCXYtNDUuNDk4YzAtNTIuOCwzMi4yNDctODEuNTUsNzkuMzQ4LTgxLjU1aDM4LjY1YzQuOTQ1LDAsOC45NTUsNC4wMDksOC45NTUsOC45NTV2MzkuNzA0YzAsNC45NDQtNC4wMDcsOC45NTItOC45NSw4Ljk1NQ0KCWwtMjMuNzE5LDAuMDExYy0yNS42MTUsMC0zMC41NzUsMTIuMTcyLTMwLjU3NSwzMC4wMzV2MzkuMzg5aDU2LjI4NWM1LjM2MywwLDkuNTI0LDQuNjgzLDguODkyLDEwLjAwOWwtNS41ODEsNDcuMDg3DQoJYy0wLjUzNCw0LjUwNi00LjM1NSw3LjkwMS04Ljg5Miw3LjkwMWgtNTAuNDUzbC0wLjI1MSwxNDYuMDc4aDg3LjYzMWMzMC40MjIsMCw1NS4wODQtMjQuNjYyLDU1LjA4NC01NS4wODRWNTUuMDg1DQoJQzQwOC43ODYsMjQuNjYyLDM4NC4xMjQsMCwzNTMuNzAxLDB6Ii8+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==" / class="icono"></a>
+            <a href="404.html" target="_blank"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDU1MS4wMzQgNTUxLjAzNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTUxLjAzNCA1NTEuMDM0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgkNCgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8xXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyNzUuNTE3IiB5MT0iNC41NyIgeDI9IjI3NS41MTciIHkyPSI1NDkuNzIiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgMCA1NTQpIj4NCgkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6I0UwOUIzRCIvPg0KCQk8c3RvcCAgb2Zmc2V0PSIwLjMiIHN0eWxlPSJzdG9wLWNvbG9yOiNDNzRDNEQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC42IiBzdHlsZT0ic3RvcC1jb2xvcjojQzIxOTc1Ii8+DQoJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiM3MDI0QzQiLz4NCgk8L2xpbmVhckdyYWRpZW50Pg0KCTxwYXRoIHN0eWxlPSJmaWxsOnVybCgjU1ZHSURfMV8pOyIgZD0iTTM4Ni44NzgsMEgxNjQuMTU2QzczLjY0LDAsMCw3My42NCwwLDE2NC4xNTZ2MjIyLjcyMg0KCQljMCw5MC41MTYsNzMuNjQsMTY0LjE1NiwxNjQuMTU2LDE2NC4xNTZoMjIyLjcyMmM5MC41MTYsMCwxNjQuMTU2LTczLjY0LDE2NC4xNTYtMTY0LjE1NlYxNjQuMTU2DQoJCUM1NTEuMDMzLDczLjY0LDQ3Ny4zOTMsMCwzODYuODc4LDB6IE00OTUuNiwzODYuODc4YzAsNjAuMDQ1LTQ4LjY3NywxMDguNzIyLTEwOC43MjIsMTA4LjcyMkgxNjQuMTU2DQoJCWMtNjAuMDQ1LDAtMTA4LjcyMi00OC42NzctMTA4LjcyMi0xMDguNzIyVjE2NC4xNTZjMC02MC4wNDYsNDguNjc3LTEwOC43MjIsMTA4LjcyMi0xMDguNzIyaDIyMi43MjINCgkJYzYwLjA0NSwwLDEwOC43MjIsNDguNjc2LDEwOC43MjIsMTA4LjcyMkw0OTUuNiwzODYuODc4TDQ5NS42LDM4Ni44Nzh6Ii8+DQoJDQoJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMl8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjc1LjUxNyIgeTE9IjQuNTciIHgyPSIyNzUuNTE3IiB5Mj0iNTQ5LjcyIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIDAgNTU0KSI+DQoJCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiNFMDlCM0QiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC4zIiBzdHlsZT0ic3RvcC1jb2xvcjojQzc0QzREIi8+DQoJCTxzdG9wICBvZmZzZXQ9IjAuNiIgc3R5bGU9InN0b3AtY29sb3I6I0MyMTk3NSIvPg0KCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojNzAyNEM0Ii8+DQoJPC9saW5lYXJHcmFkaWVudD4NCgk8cGF0aCBzdHlsZT0iZmlsbDp1cmwoI1NWR0lEXzJfKTsiIGQ9Ik0yNzUuNTE3LDEzM0MxOTYuOTMzLDEzMywxMzMsMTk2LjkzMywxMzMsMjc1LjUxNnM2My45MzMsMTQyLjUxNywxNDIuNTE3LDE0Mi41MTcNCgkJUzQxOC4wMzQsMzU0LjEsNDE4LjAzNCwyNzUuNTE2UzM1NC4xMDEsMTMzLDI3NS41MTcsMTMzeiBNMjc1LjUxNywzNjIuNmMtNDguMDk1LDAtODcuMDgzLTM4Ljk4OC04Ny4wODMtODcuMDgzDQoJCXMzOC45ODktODcuMDgzLDg3LjA4My04Ny4wODNjNDguMDk1LDAsODcuMDgzLDM4Ljk4OCw4Ny4wODMsODcuMDgzQzM2Mi42LDMyMy42MTEsMzIzLjYxMSwzNjIuNiwyNzUuNTE3LDM2Mi42eiIvPg0KCQ0KCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzNfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjQxOC4zMSIgeTE9IjQuNTciIHgyPSI0MTguMzEiIHkyPSI1NDkuNzIiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgMCA1NTQpIj4NCgkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6I0UwOUIzRCIvPg0KCQk8c3RvcCAgb2Zmc2V0PSIwLjMiIHN0eWxlPSJzdG9wLWNvbG9yOiNDNzRDNEQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC42IiBzdHlsZT0ic3RvcC1jb2xvcjojQzIxOTc1Ii8+DQoJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiM3MDI0QzQiLz4NCgk8L2xpbmVhckdyYWRpZW50Pg0KCTxjaXJjbGUgc3R5bGU9ImZpbGw6dXJsKCNTVkdJRF8zXyk7IiBjeD0iNDE4LjMxIiBjeT0iMTM0LjA3IiByPSIzNC4xNSIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" / class="icono"></a>
+            <a href="https://wa.me/5492617105944" target="_blank"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDQxOC4xMzUgNDE4LjEzNSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDE4LjEzNSA0MTguMTM1OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojN0FEMDZEOyIgZD0iTTE5OC45MjksMC4yNDJDODguNSw1LjUsMS4zNTYsOTcuNDY2LDEuNjkxLDIwOC4wMmMwLjEwMiwzMy42NzIsOC4yMzEsNjUuNDU0LDIyLjU3MSw5My41MzYNCgkJTDIuMjQ1LDQwOC40MjljLTEuMTkxLDUuNzgxLDQuMDIzLDEwLjg0Myw5Ljc2Niw5LjQ4M2wxMDQuNzIzLTI0LjgxMWMyNi45MDUsMTMuNDAyLDU3LjEyNSwyMS4xNDMsODkuMTA4LDIxLjYzMQ0KCQljMTEyLjg2OSwxLjcyNCwyMDYuOTgyLTg3Ljg5NywyMTAuNS0yMDAuNzI0QzQyMC4xMTMsOTMuMDY1LDMyMC4yOTUtNS41MzgsMTk4LjkyOSwwLjI0MnogTTMyMy44ODYsMzIyLjE5Nw0KCQljLTMwLjY2OSwzMC42NjktNzEuNDQ2LDQ3LjU1OS0xMTQuODE4LDQ3LjU1OWMtMjUuMzk2LDAtNDkuNzEtNS42OTgtNzIuMjY5LTE2LjkzNWwtMTQuNTg0LTcuMjY1bC02NC4yMDYsMTUuMjEybDEzLjUxNS02NS42MDcNCgkJbC03LjE4NS0xNC4wN2MtMTEuNzExLTIyLjkzNS0xNy42NDktNDcuNzM2LTE3LjY0OS03My43MTNjMC00My4zNzMsMTYuODktODQuMTQ5LDQ3LjU1OS0xMTQuODE5DQoJCWMzMC4zOTUtMzAuMzk1LDcxLjgzNy00Ny41NiwxMTQuODIyLTQ3LjU2QzI1Mi40NDMsNDUsMjkzLjIxOCw2MS44OSwzMjMuODg3LDkyLjU1OGMzMC42NjksMzAuNjY5LDQ3LjU1OSw3MS40NDUsNDcuNTYsMTE0LjgxNw0KCQlDMzcxLjQ0NiwyNTAuMzYxLDM1NC4yODEsMjkxLjgwMywzMjMuODg2LDMyMi4xOTd6Ii8+DQoJPHBhdGggc3R5bGU9ImZpbGw6IzdBRDA2RDsiIGQ9Ik0zMDkuNzEyLDI1Mi4zNTFsLTQwLjE2OS0xMS41MzRjLTUuMjgxLTEuNTE2LTEwLjk2OC0wLjAxOC0xNC44MTYsMy45MDNsLTkuODIzLDEwLjAwOA0KCQljLTQuMTQyLDQuMjItMTAuNDI3LDUuNTc2LTE1LjkwOSwzLjM1OGMtMTkuMDAyLTcuNjktNTguOTc0LTQzLjIzLTY5LjE4Mi02MS4wMDdjLTIuOTQ1LTUuMTI4LTIuNDU4LTExLjUzOSwxLjE1OC0xNi4yMTgNCgkJbDguNTc2LTExLjA5NWMzLjM2LTQuMzQ3LDQuMDY5LTEwLjE4NSwxLjg0Ny0xNS4yMWwtMTYuOS0zOC4yMjNjLTQuMDQ4LTkuMTU1LTE1Ljc0Ny0xMS44Mi0yMy4zOS01LjM1Ng0KCQljLTExLjIxMSw5LjQ4Mi0yNC41MTMsMjMuODkxLTI2LjEzLDM5Ljg1NGMtMi44NTEsMjguMTQ0LDkuMjE5LDYzLjYyMiw1NC44NjIsMTA2LjIyMmM1Mi43Myw0OS4yMTUsOTQuOTU2LDU1LjcxNywxMjIuNDQ5LDQ5LjA1Nw0KCQljMTUuNTk0LTMuNzc3LDI4LjA1Ni0xOC45MTksMzUuOTIxLTMxLjMxN0MzMjMuNTY4LDI2Ni4zNCwzMTkuMzM0LDI1NS4xMTQsMzA5LjcxMiwyNTIuMzUxeiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" / class="icono"></a>
+        </div>  
+        <div class="pie__arriba">
+           <a href="#header"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTI1NiwwQzExNC44MzMsMCwwLDExNC44MzMsMCwyNTZzMTE0LjgzMywyNTYsMjU2LDI1NnMyNTYtMTE0Ljg1MywyNTYtMjU2UzM5Ny4xNjcsMCwyNTYsMHogTTI1Niw0NzIuMzQxICAgIGMtMTE5LjI3NSwwLTIxNi4zNDEtOTcuMDQ2LTIxNi4zNDEtMjE2LjM0MVMxMzYuNzI1LDM5LjY1OSwyNTYsMzkuNjU5YzExOS4yOTUsMCwyMTYuMzQxLDk3LjA0NiwyMTYuMzQxLDIxNi4zNDEgICAgUzM3NS4yNzUsNDcyLjM0MSwyNTYsNDcyLjM0MXoiIGZpbGw9IiNmN2IzMmIiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTM2OS4yMjcsMjgzLjM2NWwtOTkuMTQ4LTk5LjE0OGMtNy43MzQtNy42OTQtMjAuMjI2LTcuNjk0LTI3Ljk2LDBsLTk5LjE0OCw5OS4xNDhjLTYuMzY1LDcuNDE2LTYuMzY1LDE4LjM4MiwwLDI1Ljc5OCAgICBjNy4xMTksOC4zMDksMTkuNjUxLDkuMjgsMjcuOTYsMi4xNjFMMjU2LDIyNi4yNTZsODUuMjY3LDg1LjA2OWM3LjczNCw3LjY5NCwyMC4yMjYsNy42OTQsMjcuOTYsMCAgICBDMzc2LjkyMSwzMDMuNTkxLDM3Ni45MjEsMjkxLjA5OCwzNjkuMjI3LDI4My4zNjV6IiBmaWxsPSIjZjdiMzJiIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==" / class="icono">
+        </div>      
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

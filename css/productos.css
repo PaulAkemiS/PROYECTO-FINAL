@@ -1,0 +1,89 @@
+h3 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+a {
+    color: white;
+
+}
+
+a:hover {
+    color: white;
+}
+
+.card {
+    width: 25rem;
+    height: 23rem;
+    margin-left: 7rem;
+    margin-bottom: 5rem;
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10rem;
+}
+
+.btnComprar {
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    width: 15rem;
+    height: 2rem;
+    color: white;
+    background-color: #F7B32B;
+    border: transparent;
+
+}
+
+#carrito {
+    font-weight: bold;
+    color: black;
+}
+
+.carritoCompras {
+    width: 3rem;
+    color: white;
+}
+
+.mostrar-carrito {
+
+    margin: 5% 0 5% 90%;
+    border-radius: 0.5rem;
+    height: 50px;
+    width: 50px;
+    z-index: 5;
+}
+
+.listaCarrito {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.eliminar {
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    width: 5rem;
+    color: white;
+    background-color: #F7B32B;
+    border: transparent;
+}
+
+/*.btnCarrito {
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    width: 10rem;
+    height: 2rem;
+    color: white;
+    background-color: #666C5C;
+    border: transparent;
+    text-decoration: none;
+}*/
