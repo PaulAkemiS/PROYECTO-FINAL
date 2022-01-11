@@ -1,4 +1,4 @@
-# Dietética Avellaneda
+# Dietética Avellaneda (Hay que abrirlo desde un servidor)
 
 Es una págiona web donde puedes encontrar alimentos naturales, y puedes comprarlos online.
 
